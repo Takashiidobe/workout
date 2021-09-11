@@ -1,4 +1,4 @@
 all:
-	serve site/
+	which server && serve site/
 deploy:
 	ntl deploy --prod
