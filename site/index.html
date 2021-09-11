@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
+    />
+    <title>Workout</title>
+  </head>
+
+  <body>
+    <h1>Workout</h1>
+
+    <p>
+      Click on every element to cross it out. When you're completely finished,
+      click the I'm done button.
+    </p>
+    <ul id="exercises">
+      <li class="exercise">20 Bodyweight squats.</li>
+      <li class="exercise">25 Push-ups.</li>
+      <li class="exercise">15 Walking lunges (each leg).</li>
+      <li class="exercise">
+        10 Dumbbell rows (use a milk jug or other weight).
+      </li>
+      <li class="exercise">45 Second Plank.</li>
+      <li class="exercise">60 Jumping jacks.</li>
+    </ul>
+
+    <button class="button">I'm done</button>
+
+    <h2 id="success" class="transparent">You are done for today!</h2>
+
+    <h2 id="message" class="transparent"></h2>
+    <ul id="completed"></ul>
+
+    <script src="main.js"></script>
+  </body>
+</html>
